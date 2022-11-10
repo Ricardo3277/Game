@@ -1,0 +1,21 @@
+*{
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 29%, rgba(0,203,249,1) 83%, rgba(0,212,255,1) 86%);
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#canvas-1 {
+    border: 5px solid #333;
+    background-color: #4d79bc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#layer1, #layer2, #layer3, #layer4, #player, #angler1, #angler2, #lucky{
+    display: none;
+}
